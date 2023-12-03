@@ -1,11 +1,9 @@
-Certainly! Here's a summary for the Full Stack Development project:
+# Project Summary: Full Stack Web Application
 
-Project Summary: Full Stack Web Application
-
-Description:
+## Description:
 The project involved developing a full-stack web application facilitating user interaction with a list of users. The application encompasses both frontend and backend functionalities, adhering to specified requirements.
 
-Frontend Features:
+### Frontend Features:
 
 #### User Display: Users are presented in visually appealing card format with pagination, showcasing 10 users per page.
 #### Search Functionality: Users can dynamically search for other users by names, with real-time updates.
