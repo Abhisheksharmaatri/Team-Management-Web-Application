@@ -1,0 +1,187 @@
+.UserPage {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.CreateUser {
+    border: 1 px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreateUser form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CreateUser label {
+    font-size: large;
+    margin: 10px;
+}
+
+.CreateUser Input {
+    width: 200px;
+    height: 20px;
+    margin: 15px;
+}
+
+.CreateUser button {
+    width: 200px;
+    height: 40px;
+    margin: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.CreateUser button:hover {
+    background-color: #0069d9;
+}
+
+.CreateUser button:active {
+    background-color: #0069d9;
+}
+
+.CreateUser select {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.CreateUser input {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.CreateUserMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+/* Now for the user list */
+
+.UserList {
+    border: 1 px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.UserList label {
+    font-size: large;
+    margin: 10px;
+}
+
+.UserList Input {
+    width: 200px;
+    height: 20px;
+    margin: 15px;
+}
+
+.UserList select {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.UserList input {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.UserListFilter {}
+
+.UserListName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.UserCard {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    width: 95%;
+    height: 200px;
+}
+
+.UserCard label {
+    font-size: medium;
+}
+
+.UserCard li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UserCard button {
+    width: 100px;
+    height: 25px;
+    margin: 8px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.UserCardActions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.UserCardActions button:hover {
+    background-color: #0069d9;
+}
+
+
+.UserCardActions .btn-red {
+    background-color: rgba(255, 0, 0, 0.743);
+    width: 100px;
+    height: 25px;
+    margin: 8px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.UserCardActions .btn-green {
+    background-color: #28a745;
+    width: 100px;
+    height: 25px;
+    margin: 8px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

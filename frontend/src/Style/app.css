@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.Page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    height: 40px;
+}
+
+.Page label {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Page select {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.Page input {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.Page select option {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
