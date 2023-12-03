@@ -17,14 +17,22 @@ Frontend Features:
 
 # CRUD API: 
 ##### Created API endpoints for CRUD operations on user data.
+#### User Operations API:
 GET /api/users: Retrieve all users with pagination.
+
 GET /api/users/:id: Retrieve a specific user by ID.
+
 POST /api/users: Create a new user.
+
 PUT /api/users/:id: Update an existing user.
+
 DELETE /api/users/:id: Delete a user.
+
 Filtering, Searching, Pagination: Implemented backend logic for filtering, searching, and pagination based on specified criteria.
-Team Operations API:
+
+#### Team Operations API:
 POST /api/team: Created a new team by selecting users with unique domains and availability.
+
 GET /api/team/:id: Retrieved team details by ID.
 
 # Tech Stack:
