@@ -44,6 +44,8 @@ React.js for UI components
 Node.js and Express.js for the server
 MongoDB for the database
 Mongoose for object modeling with MongoDB
+Body-Parser for parsing incoming request.
+Express-validator for validating the incoming request data.
 
 #### Deliverables:
 Shared GitHub repository containing both frontend and backend code.
