@@ -1,0 +1,11 @@
+# //Add the config files from backend and front end, and the node module to git ignore
+# //Add the config files from backend and front end, and the node module to git ignore
+
+# //Add the config files from backend and front end, and the node module to git ignore
+
+frontend/config.js
+backend/config.js
+backend/node_modules
+frontend/node_modules
+backend/script.js
+```
